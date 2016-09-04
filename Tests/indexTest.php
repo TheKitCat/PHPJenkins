@@ -55,7 +55,7 @@ class TestPHPTest extends PHPUnit_Framework_TestCase {
      */
     public function testAdd3() {
         $this->assertEquals(
-                11, $this->object->add(5, 5)
+                10, $this->object->add(5, 5)
         );
     }
 
